@@ -21,9 +21,9 @@
 			// <layout-default></layout-default> component.
 			layout() {
 				return "layout-" + ( this.$route.meta.layout || "default" ).toLowerCase() ;
-			}
-		},
-	})
+			         }
+		          },
+	               })
 	
 </script>
 
